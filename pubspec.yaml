@@ -1,0 +1,23 @@
+name: bb_loop_player
+description: BB Loop Player - boucle A-B et export audio.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+  file_picker: ^8.1.2
+  ffmpeg_kit_flutter: ^6.0.3
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
